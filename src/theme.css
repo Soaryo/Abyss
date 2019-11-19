@@ -49,7 +49,7 @@ div#app:empty:before {
 
 .search .search-keyword {
     font-style: normal;
-    font-weight: bolder
+    font-weight: 700
 }
 
 body, html {
@@ -273,7 +273,7 @@ main.hidden {
 }
 
 .sidebar li>p {
-    font-weight: bolder;
+    font-weight: 700;
     margin: 0
 }
 
@@ -386,7 +386,7 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
 }
 
 .markdown-section th {
-    font-weight: bolder
+    font-weight: 700
 }
 
 .markdown-section td, .markdown-section th {
@@ -418,7 +418,7 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
     content: "!";
     font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
     font-size: 14px;
-    font-weight: bolder;
+    font-weight: 700;
     left: -12px;
     line-height: 20px;
     position: absolute;
@@ -679,7 +679,7 @@ section.cover blockquote>p>a:hover {
 .sidebar ul li.active>a {
     border-right: 2px solid;
     color: var(--theme-color, #42b983);
-    font-weight: bold
+    font-weight: 600
 }
 
 .app-sub-sidebar li:before {
@@ -690,17 +690,12 @@ section.cover blockquote>p>a:hover {
 
 .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
     color: #2c3e50;
-    font-weight: bold;
-}
-
-strong {
-    padding: 1px 2px 1px;
-    background-color: rgba(255, 255, 153, 0.6);
+    font-weight: 600;
 }
 
 .markdown-section a {
     color: var(--theme-color, #42b983);
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .markdown-section h1 {
@@ -752,7 +747,7 @@ strong {
 }
 
 .markdown-section blockquote p {
-    font-weight: bold;
+    font-weight: 600;
     margin-left: 0
 }
 
@@ -859,7 +854,7 @@ strong {
 }
 
 .token.bold, .token.important {
-    font-weight: bolder
+    font-weight: 700
 }
 
 .token.important {
@@ -901,7 +896,7 @@ pre:after {
     color: #ccc;
     content: attr(data-lang);
     font-size: .6rem;
-    font-weight: bold;
+    font-weight: 600;
     height: 15px;
     line-height: 15px;
     padding: 5px 10px 0;
