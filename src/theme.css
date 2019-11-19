@@ -60,7 +60,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: #646464;
-    font-family: "Source Han Sans CN", sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
     font-size: 15px;
     letter-spacing: 0;
     margin: 0;
@@ -416,7 +416,7 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
     border-radius: 100%;
     color: #fff;
     content: "!";
-    font-family: "Source Han Sans CN", sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
     font-size: 14px;
     font-weight: 700;
     left: -12px;
@@ -691,6 +691,11 @@ section.cover blockquote>p>a:hover {
 .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
     color: #2c3e50;
     font-weight: 600;
+}
+
+strong{
+    padding: 1px 2px 1px;
+    background-color: rgba(187, 187, 187, 0.1);
 }
 
 .markdown-section a {
