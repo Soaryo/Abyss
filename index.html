@@ -1,7 +1,7 @@
 <!--
  * @Author: 阿宇
  * @Date: 2019-11-19 21:10:22
- * @LastEditTime: 2019-11-20 04:52:30
+ * @LastEditTime: 2019-11-20 13:48:45
  -->
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -23,6 +23,10 @@
       name: '',
       repo: '',
       loadSidebar: true
+    }
+
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
     }
   </script>
   <script src="./src/docsify.min.js"></script>
