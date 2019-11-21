@@ -9,7 +9,8 @@
     * [何谓空虚？](/introspection/what_is_emptiness)
     * [为什么我不再看A片？](/introspection/Why_I_stopped_watching_porn)
     * [如何克服社交焦虑？](/introspection/spotlight_effect)
-    * [9个改善睡眠的好习惯](/introspection/good_habites_to_improve_sleep)
+    * [9个改善睡眠的好习惯](/introspection/good_habits_to_improve_sleep)
+    * [破除职场迷茫](/introspection/solve_career_confusion)
 * 数学
     * [向量](./math/linear_algebra/01_vector)
     * [矩阵](./math/linear_algebra/02_matrix)
