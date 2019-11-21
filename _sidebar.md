@@ -7,6 +7,7 @@
     * [深度学习的艺术](/introspection/the_art_of_deep_learning.md)
     * [处理空虚感](/introspection/deal_with_feeling_of_emptiness)
     * [何谓空虚？](/introspection/what_is_emptiness)
+    * [为什么我不再看A片？](/introspection/Why_I_stopped_watching_porn)
 * 数学
     * [向量](./math/linear_algebra/01_vector)
     * [矩阵](./math/linear_algebra/02_matrix)
