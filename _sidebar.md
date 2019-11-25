@@ -11,6 +11,10 @@
     * [如何克服社交焦虑？](/introspection/spotlight_effect)
     * [9个改善睡眠的好习惯](/introspection/good_habits_to_improve_sleep)
     * [破除职场迷茫](/introspection/solve_career_confusion)
+    * [25岁做什么，可在5年后受益匪浅？](/introspection/what_can_be_done_at_25_for_lift)
+    * [如何冥想](/introspection/how_to_meditate)
+    * [失业三年是什么体验？](/introspection/3_year_of_unemployment_experience)
+    * [相见恨晚](/regret_for_seeing_each_other_late)
 * 数学
     * [向量](./math/linear_algebra/01_vector)
     * [矩阵](./math/linear_algebra/02_matrix)
