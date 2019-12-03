@@ -20,3 +20,8 @@
     * [矩阵](./math/linear_algebra/02_matrix)
     * [线性系统](./math/linear_algebra/03_linear_system)
     * [Essence of Calculus](/math/Essence_of_calculus)
+
+* 日语
+    * [皆さんの日本語](/Japanese/皆さんの日本語)
+    * [日语动词变形规则表](/Japanese/日语动词变形规则表)
+    * [文法](/Japanese/文法)
