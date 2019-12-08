@@ -1,4 +1,5 @@
 * [Index](/)
+* [Nav](/website_navigation)
 * :100: 反思 Introspection
     * [人是怎么废掉的？](/introspection/how_is_a_person_decadent)
     * [三种重要的能力](/introspection/Important_capability)
@@ -20,7 +21,10 @@
     * [矩阵](./math/linear_algebra/02_matrix)
     * [线性系统](./math/linear_algebra/03_linear_system)
     * [Essence of Calculus](/math/Essence_of_calculus)
-
+* 故事
+    * [坏打印机](/story/坏打印机 - 概统熬出来的深夜非鸡汤)
+    * [王珏](/story/王珏 - 不忘初心，难得小事)
+    * [Beeple](/story/Beeple - 每天一张，他从屎做到神！)
 * 日语
     * [皆さんの日本語](/Japanese/皆さんの日本語)
     * [日语动词变形规则表](/Japanese/日语动词变形规则表)
