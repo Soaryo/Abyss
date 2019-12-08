@@ -22,9 +22,9 @@
     * [线性系统](./math/linear_algebra/03_linear_system)
     * [Essence of Calculus](/math/Essence_of_calculus)
 * 故事
-    * [坏打印机](/story/坏打印机 - 概统熬出来的深夜非鸡汤)
-    * [王珏](/story/王珏 - 不忘初心，难得小事)
-    * [Beeple](/story/Beeple - 每天一张，他从屎做到神！)
+    * [坏打印机](/story/坏打印机_概统熬出来的深夜非鸡汤)
+    * [王珏](/story/王珏_不忘初心，难得小事)
+    * [Beeple](/story/Beeple_每天一张，他从屎做到神！)
 * 日语
     * [皆さんの日本語](/Japanese/皆さんの日本語)
     * [日语动词变形规则表](/Japanese/日语动词变形规则表)
