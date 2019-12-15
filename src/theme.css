@@ -33,6 +33,9 @@ li>a {
     text-decoration: none;
 }
 
+strong {
+    border-bottom: 1px solid #646464;
+}
 /* markdown style */
 
 .content {
