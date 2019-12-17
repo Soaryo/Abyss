@@ -1,7 +1,7 @@
 <!--
  * @Author: 阿宇
  * @Date: 2019-11-19 21:10:22
- * @LastEditTime: 2019-12-14 02:30:14
+ * @LastEditTime: 2019-12-18 02:23:36
  -->
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -24,16 +24,17 @@
       name: '',
       repo: '',
       loadSidebar: true,
+      auto2top: true,
       pagination: {
-        previousText: '上一章节',
-        nextText: '下一章节',
+        previousText: 'Prev',
+        nextText: 'Next',
         crossChapter: true
       }
     }
 
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
+    // if (typeof navigator.serviceWorker !== 'undefined') {
+    //   navigator.serviceWorker.register('sw.js')
+    // }
   </script>
   <script src="./src/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>

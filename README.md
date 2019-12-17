@@ -1,36 +1,49 @@
 # Abyss
 
-* [Sites Navigation](/website_navigation)
-* [Soul Searching](./soul_searching/soul_searching.md)
-    * [Soul](/introspection/soul.md)
-    * [Soul Searching](./soul_searching/soul_searching.md)
-    * [Truth & Advice](./soul_searching/truth_and_advice.md)
-    * [不负现在，何惧将来](./soul_searching/不负现在，何惧将来.md)
-    * [你有哪些独到的识人技巧？](./soul_searching/你有哪些独到的识人技巧？.md)
-    * [你有哪些独到的识人技巧?](./soul_searching/你有哪些独到的识人技巧2.md)
-    * [有哪些是你踏入社会才明白的道理？](./soul_searching/有哪些是你踏入社会才明白的道理？.md)
-    * [一个人开始废掉的3种迹象](./soul_searching/一个人开始废掉的3种迹象)
-    * [有哪些第一次读到就震撼的句子?](./soul_searching/有哪些第一次读到就震撼的句子？.md)
-* :100: 反思 Introspection
-    * [人是怎么废掉的？](/introspection/how_is_a_person_decadent)
-    * [三种重要的能力](/introspection/Important_capability)
-    * [21天知识内化](/introspection/21_days_of_knowledge_memory)
-    * [重读-21天知识内化](/introspection/21_days_of_knowledge_memory_reread)
-    * [深度学习的艺术](/introspection/the_art_of_deep_learning)
-    * [处理空虚感](/introspection/deal_with_feeling_of_emptiness)
-    * [何谓空虚？](/introspection/what_is_emptiness)
-    * [为什么我不再看A片？](/introspection/Why_I_stopped_watching_porn)
-    * [如何克服社交焦虑？](/introspection/spotlight_effect)
-    * [9个改善睡眠的好习惯](/introspection/good_habits_to_improve_sleep)
-    * [破除职场迷茫](/introspection/solve_career_confusion)
-    * [25岁做什么，可在5年后受益匪浅？](/introspection/what_can_be_done_at_25_for_lift)
-    * [如何冥想](/introspection/how_to_meditate)
-    * [失业三年是什么体验？](/introspection/3_year_of_unemployment_experience)
-    * [相见恨晚](/regret_for_seeing_each_other_late)
+* [Sites Navigation](/Abyss/website_navigation)
+
+> 在没有成为本能之前，每天看多少遍都不为过。
+
+* [Truth & Advice](/Abyss/truth_and_advice)
+
+> 谦谦君子，温润如玉。
+
+* [太用力的人跑不远，一直努力就很好](/Abyss/太用力的人跑不远，一直努力就很好)
+* [肉体操纵精神，训练感官，让自己开心](/Abyss/肉体操纵精神，训练感官，让自己开心)
+* [25岁做什么，可在5年后受益匪浅？](/Abyss/what_can_be_done_at_25_for_lift)
+* [识人技巧，人际交往](/Abyss/识人技巧，人际交往)
+* [识人技巧，经验?](/Abyss/识人技巧，经验)
+* [用功不求过猛，但求有恒](/Abyss/用功不求过猛，但求有恒)
+* [相见恨晚](/Abyss/regret_for_seeing_each_other_late)
+
+> 三省吾身
+
+* [人是怎么废掉的？](/Abyss/how_is_a_person_decadent)
+* [失业三年是什么体验？](/Abyss/3_year_of_unemployment_experience)
+* [一个人开始废掉的3种迹象](/Abyss/一个人开始废掉的3种迹象)
+
+> 心灵旅途
+
+* [何谓空虚？](/Abyss/what_is_emptiness)
+* [处理空虚感](/Abyss/deal_with_feeling_of_emptiness)
+* [为什么我不再看片](/Abyss/Why_I_stopped_watching_porn)
+* [克服社交焦虑，聚光灯效应](/Abyss/spotlight_effect)
+
+> 好好学习
+
+* [21天知识内化](/Abyss/21_days_of_knowledge_memory)
+* [重读-21天知识内化](/Abyss/21_days_of_knowledge_memory_reread)
+* [深度学习的艺术](/Abyss/the_art_of_deep_learning)
+* [破除职场迷茫](/Abyss/solve_career_confusion)
+* [如何冥想](/Abyss/how_to_meditate)
+* [9个改善睡眠的好习惯](/Abyss/good_habits_to_improve_sleep)
+
+
+
 * 数学
-    * [向量](./math/linear_algebra/01_vector)
-    * [矩阵](./math/linear_algebra/02_matrix)
-    * [线性系统](./math/linear_algebra/03_linear_system)
+    * [向量](/math/linear_algebra/01_vector)
+    * [矩阵](/math/linear_algebra/02_matrix)
+    * [线性系统](/math/linear_algebra/03_linear_system)
     * [Essence of Calculus](/math/Essence_of_calculus)
 * 故事
     * [坏打印机](/story/坏打印机_概统熬出来的深夜非鸡汤)
