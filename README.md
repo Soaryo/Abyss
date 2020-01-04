@@ -21,6 +21,12 @@
 * [人是怎么废掉的？](/Abyss/how_is_a_person_decadent)
 * [失业三年是什么体验？](/Abyss/3_year_of_unemployment_experience)
 * [一个人开始废掉的3种迹象](/Abyss/一个人开始废掉的3种迹象)
+* [公主死去了，屠龙的少年还在燃烧](/Abyss/to_be_a_better_man)
+* [讨好者 People Pleaser](/Abyss/people_pleaser)
+* [红灯思维](/Abyss/red_light_thinking)
+* [不求上进](/Abyss/no_desire_to_make_progress)
+* [早起](/Abyss/early_riser)
+
 
 > 心灵旅途
 

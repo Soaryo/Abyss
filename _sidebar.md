@@ -21,6 +21,11 @@
     * [破除职场迷茫](/Abyss/solve_career_confusion)
     * [如何冥想](/Abyss/how_to_meditate)
     * [9个改善睡眠的好习惯](/Abyss/good_habits_to_improve_sleep)
+    * [公主死去了，屠龙的少年还在燃烧](/Abyss/to_be_a_better_man)
+    * [讨好者 People Pleaser](/Abyss/people_pleaser)
+    * [红灯思维](/Abyss/red_light_thinking)
+    * [不求上进](/Abyss/no_desire_to_make_progress)
+    * [早起](/Abyss/early_riser)
 * 数学
     * [向量](./math/linear_algebra/01_vector)
     * [矩阵](./math/linear_algebra/02_matrix)
