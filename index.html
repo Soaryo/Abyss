@@ -14,23 +14,29 @@
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./src/index.css">
-  <link rel="stylesheet" href="./src/theme.css">
-  <link rel="stylesheet" href="./src/katex.min.css" />
-  <link rel="stylesheet" href="./src/vuep.css">
+  <link rel="stylesheet" href="./src/css/theme.css">
+  <link rel="stylesheet" href="./src/css/katex.min.css" />
+  <link rel="stylesheet" href="./src/css/vuep.css">
 </head>
 
 <body>
+  <nav></nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: '',
       repo: '',
+      // loadNavbar: true,  
       loadSidebar: true,
+      subMaxLevel: 2,
       auto2top: true,
-      pagination: {
-        previousText: 'Prev',
-        nextText: 'Next',
-        crossChapter: true
+      // pagination: {
+      //   previousText: 'Prev',
+      //   nextText: 'Next',
+      //   crossChapter: true
+      // },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
       },
       tabs: {
         persist: true,
@@ -38,17 +44,23 @@
         theme: 'material',
         tabComments: true,
         tabHeadings: true
+      },
+      abyss: {
+        data: [],
+        path: [
+          '/L/t'
+        ]
       }
     }
     // if (typeof navigator.serviceWorker !== 'undefined') {
     //   navigator.serviceWorker.register('sw.js')
     // }
   </script>
-  <script src="./src/vue.min.js"></script>
-  <script src="./src/vuep.min.js"></script>
-  <script src="./src/docsify.min.js"></script>
-  <script src="./src/docsify-katex.js"></script>
-  <script src="./src/docsify-pagination.min.js"></script>
+  <script src="./src/js/vue.min.js"></script>
+  <script src="./src/js/vuep.min.js"></script>
+  <script src="./src/js/docsify.min.js"></script>
+  <script src="./src/js/docsify-katex.js"></script>
+  <script src="./src/index.js"></script>
 </body>
 
 </html>

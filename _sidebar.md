@@ -1,3 +1,2 @@
 * [Index](/)
-* [Articles](/articles/_sidebar)
-* [CSS](/css/_sidebar)
+* [Articles](/articles/README.md)

@@ -1,10 +1,13 @@
 :root {
-    --font-color: #646464;
-    --font-size: 16px;
+    --font-color: #535353;
+    --font-size: 15.5px;
     --theme-color: #42b983;
+    /* --theme-color: #007AAA; */
     --theme-color-bg: #fff;
     --theme-color-grey: #888888;
     --theme-color-black: #444444;
+    /* --link-color: #007AAA; */
+    --link-color: #42b983;
     --text-gap: 15px;
     --line-height: 1.7rem
 }
@@ -34,7 +37,53 @@ body {
     font-size: var(--font-size);
     letter-spacing: 0;
     margin: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
+}
+
+#contents li {
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+
+/*  Details  */
+
+details {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+summary {
+    list-style: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #738290;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    text-align: left;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* summary:before {
+    content: "\2714";
+    margin-right: 2px;
+} */
+
+summary:focus {
+    outline: none;
+}
+
+/* details[open] {} */
+
+details[open] .summary-content {
+    padding: 12px;
+    background-color: #FFFCF7;
+    border-left: 2px dashed #E4F0D0;
+    border-right: 2px dashed #E4F0D0;
 }
 
 /* markdown style */
@@ -46,6 +95,7 @@ body {
     right: 0;
     bottom: 0;
     left: 300px;
+    /* background-color: #FAFBFF; */
     transition: left .25s ease
 }
 
@@ -59,6 +109,8 @@ body {
 .markdown-section>* {
     box-sizing: border-box;
     font-size: var(--font-size);
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
 
 .markdown-section>:first-child {
@@ -68,7 +120,8 @@ body {
 /* Article */
 
 .markdown-section p {
-    margin: 0 0 20px
+    margin: 0 0 20px;
+    padding: 0 10px 0;
 }
 
 .markdown-section ol, .markdown-section p, .markdown-section ul {
@@ -76,16 +129,21 @@ body {
     word-spacing: .05rem
 }
 
+.markdown-section summary p {
+    display: inline-block;
+    margin: 0;
+}
+
 /*  Text */
 
 .markdown-section em {
     font-style: normal;
-    background-color: rgba(250, 255, 180);
-    padding: 0 3px 0;
-    border-radius: 10px;
+    background-color: #FFFF99;
+    padding: 0 2px 0;
 }
 
 .markdown-section strong {
+    /* color: #FF5078; */
     border-bottom: .8px solid var(--theme-color-grey);
 }
 
@@ -101,36 +159,34 @@ body {
 
 .markdown-section a {
     color: var(--theme-color);
+    text-decoration: none;
     /* font-weight: 600; */
 }
 
 /* List */
 
 .markdown-section ol, .markdown-section ul {
-    padding-left: 12px;
-    list-style: none;
+    padding: 0 10px 0 12px;
+    /* list-style: none; */
+    list-style-position: inside;
 }
 
-.markdown-section ul>li::before {
+/* .markdown-section ul>li::before {
     content: '';
     display: inline-block;
     box-sizing: border-box;
     margin-right: 5px;
     width: 10px;
     height: 10px;
-    border-radius: 5px;
+    border-radius: 50%;
     border: 3px solid var(--theme-color);
     line-height: 0;
     background-color: var(--theme-color-bg);
-}
-
-li>a {
-    text-decoration: none;
-}
+} */
 
 /* Heading */
 
-.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4 {
     color: var(--theme-color-black);
     font-weight: 600;
     /* position: relative; */
@@ -157,7 +213,9 @@ li>a {
 }
 
 .markdown-section h4 {
-    font-size: 15px
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 0 0 10px;
 }
 
 .markdown-section h5 {
@@ -175,12 +233,14 @@ li>a {
     border-left: 4px solid var(--theme-color);
     color: var(--theme-color-grey);
     margin: 12px 0;
-    padding-left: 20px
+    padding: 10px;
+    background-color: var(--codeStyle-pre-bg);
+    border-radius: 2px;
 }
 
 .markdown-section blockquote p {
     font-weight: 600;
-    margin-left: 0
+    margin: 0;
 }
 
 /* iframe */
@@ -234,28 +294,76 @@ li>a {
 
 /* code style */
 
+:root {
+    --codeStyle-code-bg: #f9f2f4;
+    --codeStyle-code-color: #c7254e;
+    --codeStyle-pre-bg: #f8f8f8;
+    --codeStyle-code-string: #c7254e;
+    --codeStyle-code-regex: #22a2c9;
+    --codeStyle-code-css-string: #22a2c9;
+}
+
 .markdown-section code {
     border-radius: 2px;
-    color: #e96900;
+    color: var(--codeStyle-code-color);
     font-size: 14px;
     margin: 0 2px;
     padding: 3px 5px;
-    white-space: pre-wrap
-}
-
-.markdown-section code, .markdown-section pre {
-    background-color: #f8f8f8;
+    white-space: pre-wrap;
+    background-color: var(--codeStyle-code-bg);
 }
 
 .markdown-section pre {
     -moz-osx-font-smoothing: initial;
     -webkit-font-smoothing: initial;
-    line-height: 1rem;
-    margin: 1.2em 0;
+    border-radius: 10px;
+    line-height: 1.6rem;
+    margin: 12 0px;
     overflow: auto;
-    padding: 0 1.4rem;
+    padding: 0 12px;
     position: relative;
-    word-wrap: normal
+    word-wrap: normal;
+    background-color: var(--codeStyle-pre-bg);
+}
+
+.markdown-section pre>code {
+    -moz-osx-font-smoothing: initial;
+    -webkit-font-smoothing: initial;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background-color: var(--codeStyle-pre-bg);
+    color: #525252;
+    display: block;
+    font-size: 14px;
+    line-height: inherit;
+    max-width: inherit;
+    overflow: inherit;
+    padding: 15px 5px;
+    white-space: pre-wrap;
+    letter-spacing: .3px;
+}
+
+.markdown-section code:after, .markdown-section code:before {
+    letter-spacing: .05rem
+}
+
+code .token {
+    -moz-osx-font-smoothing: initial;
+    -webkit-font-smoothing: initial;
+    min-height: 1.5rem
+}
+
+pre:after {
+    color: #ccc;
+    content: attr(data-lang);
+    font-size: .6rem;
+    font-weight: 600;
+    height: 15px;
+    line-height: 15px;
+    padding: 5px 10px 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0
 }
 
 .token.cdata, .token.comment, .token.doctype, .token.prolog {
@@ -283,7 +391,7 @@ li>a {
 }
 
 .token.string {
-    color: var(--theme-color, #42b983)
+    color: var(--codeStyle-code-string)
 }
 
 .token.selector {
@@ -295,7 +403,7 @@ li>a {
 }
 
 .language-css .token.string, .style .token.string, .token.entity, .token.url {
-    color: #22a2c9
+    color: var(--codeStyle-code-css-string)
 }
 
 .token.attr-value, .token.control, .token.directive, .token.unit {
@@ -307,7 +415,7 @@ li>a {
 }
 
 .token.atrule, .token.regex, .token.statement {
-    color: #22a2c9
+    color: var(--codeStyle-code-regex)
 }
 
 .token.placeholder, .token.variable {
@@ -337,47 +445,6 @@ li>a {
 
 .token.entity {
     cursor: help
-}
-
-.markdown-section pre>code {
-    -moz-osx-font-smoothing: initial;
-    -webkit-font-smoothing: initial;
-    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    background-color: #f8f8f8;
-    border-radius: 2px;
-    color: #525252;
-    display: block;
-    font-size: .8 rem;
-    line-height: inherit;
-    margin: 0 2px;
-    max-width: inherit;
-    overflow: inherit;
-    padding: 2em 3px;
-    white-space: pre-wrap
-}
-
-.markdown-section code:after, .markdown-section code:before {
-    letter-spacing: .05rem
-}
-
-code .token {
-    -moz-osx-font-smoothing: initial;
-    -webkit-font-smoothing: initial;
-    min-height: 1.5rem
-}
-
-pre:after {
-    color: #ccc;
-    content: attr(data-lang);
-    font-size: .6rem;
-    font-weight: 600;
-    height: 15px;
-    line-height: 15px;
-    padding: 5px 10px 0;
-    position: absolute;
-    right: 0;
-    text-align: right;
-    top: 0
 }
 
 /* docsify-pagination-container */
