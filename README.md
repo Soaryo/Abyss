@@ -2,4 +2,5 @@
 * [Index](/)
 * [Articles](/articles/README.md)
 * [Truth and Advice](/articles/truth_and_advice)
-* [L Catalogue](/L_catalogue)
+* [Lachel Catalogue](/L_catalogue)
+* [Lachel Articles](/Lachel/articles)
